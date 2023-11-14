@@ -13,6 +13,7 @@ function App() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" Component={HomePage} />
+				<Route path="/Portfolio-with-ReactJS/" Component={HomePage} />
 				<Route path="*" Component={PageNotFound} />
 			</Routes>
 		</BrowserRouter>
