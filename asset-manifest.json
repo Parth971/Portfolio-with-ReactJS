@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-with-ReactJS/static/css/main.9396339f.css",
-    "main.js": "/Portfolio-with-ReactJS/static/js/main.e1568d75.js",
+    "main.js": "/Portfolio-with-ReactJS/static/js/main.01c0b717.js",
     "static/media/news_website.png": "/Portfolio-with-ReactJS/static/media/news_website.a5340eea9b64d58d718c.png",
     "static/media/bootstrap_website_theme_naruto.png": "/Portfolio-with-ReactJS/static/media/bootstrap_website_theme_naruto.5730a05c9d19408f5555.png",
     "static/media/Parth Desai CV.pdf": "/Portfolio-with-ReactJS/static/media/Parth Desai CV.83741092445ce0a14177.pdf",
@@ -11,10 +11,10 @@
     "static/media/todo_and_calculator_javascript_project.jpg": "/Portfolio-with-ReactJS/static/media/todo_and_calculator_javascript_project.8e8f275a8294fe2775eb.jpg",
     "index.html": "/Portfolio-with-ReactJS/index.html",
     "main.9396339f.css.map": "/Portfolio-with-ReactJS/static/css/main.9396339f.css.map",
-    "main.e1568d75.js.map": "/Portfolio-with-ReactJS/static/js/main.e1568d75.js.map"
+    "main.01c0b717.js.map": "/Portfolio-with-ReactJS/static/js/main.01c0b717.js.map"
   },
   "entrypoints": [
     "static/css/main.9396339f.css",
-    "static/js/main.e1568d75.js"
+    "static/js/main.01c0b717.js"
   ]
 }
