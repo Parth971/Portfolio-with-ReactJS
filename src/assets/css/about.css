@@ -1,0 +1,27 @@
+.services .service {
+    width: 48%;
+    margin: 5px;
+}
+
+.services .service {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.services .service .service-header .service-icon {
+    padding: 10px;
+}
+
+.services .service .service-header .service-icon svg {
+    height: 20px;
+    width: 20px;
+}
+
+.services .service .service-header .service-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+.services .service .service-content {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,56 @@
+.resume-wraper>div,
+.skills-wraper>div {
+    width: 45%;
+}
+
+.resume-wraper .header .title {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.resume-wraper .header svg {
+    height: 25px;
+    width: 25px;
+    fill: linear-gradient(to right, #FF9C1B, #EB1D08);
+}
+
+.resume-wraper .detail-box {
+    background-color: #FFE3BF;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 30px 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.resume-wraper .detail-box .time-duration {
+    color: #948167;
+}
+
+.resume-wraper .detail-box .title{
+    font-weight: 600;
+}
+.resume-wraper .detail-box .school-or-clg  {
+    font-weight: 500;
+}
+
+
+.skills-wraper {
+    padding: 20px 70px;
+    background-color: #F8FBFB;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.skills-wraper .skills .skill {
+    padding: 8px 15px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+    background-color: #E1E8EF;
+}
+
+.skills-wraper .title {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+}

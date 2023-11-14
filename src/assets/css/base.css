@@ -1,0 +1,12 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F5F9;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    --bs-gutter-x: 14rem
+}
