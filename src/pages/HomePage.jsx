@@ -36,84 +36,84 @@ function Home() {
             <Container fluid className="my-4" >
                 <Row>
                     <Col>
-                        <div>
+                        <div className="logo-wraper">
                             <Image src={logoImage} style={{ height: "55px", cursor: "pointer" }} onClick={() => setSelectedMenuItem("home")} />
                         </div>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <div className="float-end">
-                            <div className="menu-items">
-                                <div
-                                    className={"menu-item" + (selectedMenuItem === "home" ? " active" : "")}
-                                    onClick={(e) => handleMenuItemClick("home", e)}
-                                >
-                                    <div className="icon-wraper">
-                                        <House />
-                                    </div>
-                                    <div className="text-wraper">
-                                        Home
-                                    </div>
+                        <div className="menu-items">
+                            <div
+                                className={"menu-item" + (selectedMenuItem === "home" ? " active" : "")}
+                                onClick={(e) => handleMenuItemClick("home", e)}
+                            >
+                                <div className="icon-wraper">
+                                    <House />
                                 </div>
-                                <div
-                                    className={"menu-item" + (selectedMenuItem === "resume" ? " active" : "")}
-                                    onClick={(e) => handleMenuItemClick("resume", e)}
-                                >
-                                    <div className="icon-wraper">
-                                        <FileEarmarkText />
-                                    </div>
-                                    <div className="text-wraper">
-                                        Resume
-                                    </div>
+                                <div className="text-wraper">
+                                    Home
                                 </div>
-                                <div
-                                    className={"menu-item" + (selectedMenuItem === "work" ? " active" : "")}
-                                    onClick={(e) => handleMenuItemClick("work", e)}
-                                >
-                                    <div className="icon-wraper">
-                                        <Bag />
-                                    </div>
-                                    <div className="text-wraper">
-                                        Work
-                                    </div>
+                            </div>
+                            <div
+                                className={"menu-item" + (selectedMenuItem === "resume" ? " active" : "")}
+                                onClick={(e) => handleMenuItemClick("resume", e)}
+                            >
+                                <div className="icon-wraper">
+                                    <FileEarmarkText />
                                 </div>
+                                <div className="text-wraper">
+                                    Resume
+                                </div>
+                            </div>
+                            <div
+                                className={"menu-item" + (selectedMenuItem === "work" ? " active" : "")}
+                                onClick={(e) => handleMenuItemClick("work", e)}
+                            >
+                                <div className="icon-wraper">
+                                    <Bag />
+                                </div>
+                                <div className="text-wraper">
+                                    Work
+                                </div>
+                            </div>
 
-                                <div
-                                    className={"menu-item" + (selectedMenuItem === "contact" ? " active" : "")}
-                                    onClick={(e) => handleMenuItemClick("contact", e)}
-                                >
-                                    <div className="icon-wraper">
-                                        <PersonLinesFill />
-                                    </div>
-                                    <div className="text-wraper">
-                                        Contact
-                                    </div>
+                            <div
+                                className={"menu-item" + (selectedMenuItem === "contact" ? " active" : "")}
+                                onClick={(e) => handleMenuItemClick("contact", e)}
+                            >
+                                <div className="icon-wraper">
+                                    <PersonLinesFill />
+                                </div>
+                                <div className="text-wraper">
+                                    Contact
                                 </div>
                             </div>
                         </div>
                     </Col>
                 </Row>
-                <Row className="my-4">
-                    <Col md={{ span: 3 }}>
+                <Row className="my-3">
+                    <Col lg={3}>
                         <div className="left-content-wraper text-center">
-                            <h3 className="name">Parth Desai</h3>
-                            <h6 className="position">Software Developer</h6>
+                            <div className="name">Parth Desai</div>
+                            <div className="position">Software Developer</div>
 
                             <div className="social-media-items">
-                                <a className="social-media-item" href="https://www.facebook.com/profile.php?id=100009073984667" target="_blank" rel="noreferrer">
-                                    <Facebook fill="#1877F2" />
-                                </a>
+                                <div className="d-flex flex-row justify-content-center flex-wrap">
+                                    <a className="social-media-item" href="https://www.facebook.com/profile.php?id=100009073984667" target="_blank" rel="noreferrer">
+                                        <Facebook fill="#1877F2" />
+                                    </a>
 
-                                <a className="social-media-item" href="https://www.linkedin.com/in/parth971/" target="_blank" rel="noreferrer">
-                                    <Linkedin fill="#0077B5" />
-                                </a>
-                                <a className="social-media-item" href="https://twitter.com/desaiparth971/" target="_blank" rel="noreferrer">
-                                    <Twitter fill="#1CA1F2" />
-                                </a>
-                                <a className="social-media-item" href="https://github.com/Parth971/" target="_blank" rel="noreferrer">
-                                    <Github fill="#0B0909" />
-                                </a>
+                                    <a className="social-media-item" href="https://www.linkedin.com/in/parth971/" target="_blank" rel="noreferrer">
+                                        <Linkedin fill="#0077B5" />
+                                    </a>
+                                    <a className="social-media-item" href="https://twitter.com/desaiparth971/" target="_blank" rel="noreferrer">
+                                        <Twitter fill="#1CA1F2" />
+                                    </a>
+                                    <a className="social-media-item" href="https://github.com/Parth971/" target="_blank" rel="noreferrer">
+                                        <Github fill="#0B0909" />
+                                    </a>
+                                </div>
                             </div>
 
                             <div className="contact-details">
@@ -164,7 +164,7 @@ function Home() {
                                     rel="noreferrer"
                                     className="download-resume d-flex align-items-center justify-content-center"
                                 >
-                                    <Button>
+                                    <Button className="d-flex align-items-center justify-content-center">
                                         <FileEarmarkArrowDown />
                                         <div className="text">
                                             Download Resume
@@ -176,7 +176,7 @@ function Home() {
 
                         </div>
                     </Col>
-                    <Col md={{ span: 9 }}>
+                    <Col lg={9}>
                         <div className="right-content-wraper">
                             <SelectedComponent />
                         </div>

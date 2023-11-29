@@ -3,6 +3,7 @@
     border-radius: 25px;
     padding: 12px 20px;
     box-shadow: 0 0 5px 0 #c3c3c3;
+    float: right !important;
 }
 
 .menu-item {
@@ -61,11 +62,18 @@
 .left-content-wraper .name {
     font-weight: 500;
     margin-top: 10vh;
+    font-size: 35px;
 }
 
 .left-content-wraper .position {
     color: #858484;
     font-weight: 400;
+    font-size: 16px;
+}
+
+.left-content-wraper .social-media-items {
+    text-align: center;
+    display: inline-block;
 }
 
 .left-content-wraper .social-media-item {
@@ -120,6 +128,7 @@
 
 .left-content-wraper .contact-details .download-resume {
     margin: 15px 0;
+    text-decoration: none;
 }
 
 .left-content-wraper .contact-details .download-resume button {
@@ -141,9 +150,6 @@
     margin: 0 10px;
 }
 
-.left-content-wraper .contact-details .download-resume button .text {
-    display: inline-block;
-}
 
 .right-content-wraper section {
     margin: 20px 70px;
@@ -168,4 +174,261 @@
     margin: 30px 0;
     font-weight: 500;
     font-size: 35px;
+}
+
+
+@media(max-width: 1777px) {
+    .left-content-wraper .contact-details {
+        padding: 20px;
+        margin: 10px 0 0 0;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper {
+        padding: 10px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+        font-size: 12px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .left-content-wraper .contact-details {
+        padding: 10px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+        font-size: 10px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+        font-size: 10px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button svg {
+        width: 13px;
+        height: 13px;
+        margin: 0 5px;
+    }
+
+    .left-content-wraper .name {
+        font-size: 25px;
+        margin-top: 5vh;
+    }
+
+    .left-content-wraper .position {
+        font-size: 13px;
+    }
+
+    .left-content-wraper .social-media-item {
+        margin: 5px;
+        padding: 20px;
+    }
+
+    .left-content-wraper .social-media-item svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .right-content-wraper .header .header-title {
+        font-size: 35px;
+    }
+
+    .right-content-wraper .header2 .header-title {
+        margin: 20px 0;
+        font-size: 30px;
+    }
+
+    .right-content-wraper .about-me {
+        font-size: 15px;
+    }
+
+    .right-content-wraper section {
+        margin: 20px 55px;
+    }
+
+    .menu-item .icon-wraper {
+        margin: 3px 32px;
+    }
+
+    .menu-item .text-wraper {
+        font-size: 13px;
+    }
+
+    .menu-item {
+        padding: 15px 0px;
+        margin: 0px 10px;
+    }
+
+}
+
+@media(max-width: 992px) {
+
+    .left-content-wraper {
+        border-radius: 0;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    .right-content-wraper {
+        border-top: 1px solid rgb(238, 238, 238);
+        border-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .left-content-wraper .contact-details {
+        margin: 10px 100px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper {
+        padding: 25px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+        font-size: 13px;
+        color: #86837E;
+        font-weight: 500;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .menu-items {
+        float: none !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+        margin-top: 10px;
+    }
+
+    .menu-item {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 20px;
+        margin: 5px 10px;
+    }
+
+    .menu-item .text-wraper  {
+        line-height: 21px;
+        margin: 0 10px;
+    }
+
+    .menu-item .icon-wraper {
+        margin: 0 0 0 10px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button svg {
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .left-content-wraper .contact-details {
+        margin: 10px 30px;
+    }
+
+    .right-content-wraper section {
+        margin: 20px 30px;
+    }
+}
+
+@media(max-width: 576px) {
+    .menu-item {
+        padding: 12px;
+        margin: 5px;
+    }
+
+    .menu-item .icon-wraper svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .menu-item .text-wraper {
+        font-size: 10px;
+    }
+
+    .logo-wraper {
+        text-align: center;
+    }
+
+    .left-content-wraper .contact-details {
+        margin: 10px 0;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper {
+        padding: 15px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .icon-wraper svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-title {
+        font-size: 12px;
+    }
+
+    .left-content-wraper .contact-details .detail-wraper .detail .detail-value {
+        font-size: 11px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .left-content-wraper .contact-details .download-resume button {
+        padding: 10px 20px;
+        font-size: 11px;
+    }
+
+    .right-content-wraper section {
+        margin: 20px;
+    }
+
+    .right-content-wraper .header .header-title {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+    .right-content-wraper .about-me {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .right-content-wraper .header2 .header-title {
+        font-size: 20px;
+        margin: 30px 0 10px 0;
+    }
 }

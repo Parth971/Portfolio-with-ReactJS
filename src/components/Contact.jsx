@@ -13,7 +13,7 @@ export default function Contact() {
 
                 <div className="contact-details d-flex justify-content-between my-3">
                     <div className="contact-detail d-flex justify-content-start" style={{ backgroundColor: "#FFEED9" }}>
-                        <div className="contact-icon">
+                        <div className="contact-icon d-flex align-items-center">
                             <TelephoneOutbound fill="url(#icon-gradiant)" />
                         </div>
                         <div>
@@ -26,7 +26,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="contact-detail d-flex justify-content-start" style={{ backgroundColor: "#F2F7FC" }}>
-                        <div className="contact-icon">
+                        <div className="contact-icon d-flex align-items-center">
                             <EnvelopeAt fill="url(#icon-gradiant)" />
                         </div>
                         <div>
@@ -70,7 +70,6 @@ export default function Contact() {
                         </FloatingLabel>
 
                         <div className="submit-btn">
-                            <div className="inner"></div>
                             Submit
                         </div>
                     </div>

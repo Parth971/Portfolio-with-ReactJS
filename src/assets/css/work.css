@@ -1,11 +1,12 @@
 .works-wraper .work-box {
-    width: 48%;
+    width: 45%;
     height: auto;
     position: relative;
     margin: 10px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 0 5px 0 #c3c3c3;;
+    box-shadow: 0 0 5px 0 #c3c3c3;
+    ;
 }
 
 .works-wraper .work-box img {
@@ -40,4 +41,36 @@
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
+}
+
+@media(max-width: 1200px) {
+    .works-wraper .work-box .work-details .title {
+        font-size: 15px;
+    }
+
+    .works-wraper .work-box .work-details .title {
+        font-size: 12px;
+    }
+
+    .works-wraper .work-box .work-details .category {
+        font-size: 11px;
+    }
+
+    .works-wraper .work-box .work-details {
+        padding: 10px;
+    }
+}
+
+@media(max-width: 768px) {
+    .works-wraper .work-box {
+        width: 45%;
+        margin: 5px;
+    }
+
+}
+
+@media(max-width: 576px) {
+    .works-wraper .work-box {
+        width: 100%;
+    }
 }

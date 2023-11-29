@@ -56,3 +56,54 @@
     color: white;
     cursor: pointer;
 }
+
+
+@media(max-width: 768px) {
+    .contact-details {
+        flex-wrap: wrap;
+    }
+
+    .contact-details .contact-detail {
+        width: 100%;
+        padding: 15px 10px;
+        border-radius: 10px;
+        margin: 5px 0 !important;
+    }
+
+    .contact-details .contact-detail .contact-icon {
+        padding: 0 10px;
+    }
+
+    .contact-details .contact-detail .detail-title, .contact-details .contact-detail .detail-value {
+        font-size: 13px;
+    }
+
+    .contact-form-wraper {
+        padding: 20px;
+    }
+
+    .contact-form-wraper .instructions {
+        font-size: 12px;
+        line-height: inherit;
+        text-align: justify;
+    }
+
+    .form .form-floating, .form-control {
+        font-size: 13px;
+    }
+    .form {
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .form .form-floating, .form-control {
+        font-size: 13px;
+    }
+
+    .contact-form-wraper .form .submit-btn {
+        padding: 7px 20px;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}

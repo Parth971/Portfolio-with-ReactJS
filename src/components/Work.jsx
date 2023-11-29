@@ -16,7 +16,7 @@ export default function Work() {
                 <div className="header-line"></div>
             </div>
 
-            <div className="works-wraper d-flex align-content-start flex-wrap">
+            <div className="works-wraper d-flex align-content-start justify-content-center flex-wrap">
                 <div className="work-box">
                     <Image src={bootstrap_website_theme_naruto} />
                     <div className="work-details">

@@ -4,7 +4,7 @@ import { CodeSlash, CodeSquare, Gear, FileEarmarkBreak } from 'react-bootstrap-i
 
 export default function About() {
     return (
-        <section>
+        <section id="about">
             <div className="header d-flex flex-row align-items-center">
                 <div className="header-title">ABOUT ME</div>
                 <div className="header-line"></div>
@@ -16,7 +16,7 @@ export default function About() {
             <div className="header2">
                 <div className="header-title">What I do!</div>
             </div>
-            <div className="services d-flex align-content-start flex-wrap">
+            <div className="services d-flex justify-content-center align-content-start flex-wrap">
                 <div className="service" style={{ backgroundColor: "#FFEBD0" }}>
                     <div className="service-header d-flex justify-content-start align-items-center">
                         <div className="service-icon">

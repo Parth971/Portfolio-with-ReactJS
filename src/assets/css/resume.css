@@ -43,8 +43,8 @@
 }
 
 .skills-wraper .skills .skill {
-    padding: 8px 15px;
-    margin: 10px 10px 10px 0px;
+    padding: 6px 13px;
+    margin: 8px 8px 8px 0px;
     border-radius: 10px;
     background-color: #E1E8EF;
 }
@@ -54,3 +54,40 @@
     font-size: 25px;
     font-weight: 500;
 }
+
+
+@media(max-width: 992px) {
+    .skills-wraper .skills .skill {
+        padding: 5px 10px;
+        margin: 5px 5px 5px 0px;
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 768px) {
+    .resume-wraper>div, .skills-wraper>div {
+        width: 100%;
+    }
+
+    .resume-wraper .detail-box {
+        padding: 20px;
+    }
+
+    .resume-wraper .detail-box .time-duration, .resume-wraper .detail-box .title, .resume-wraper .detail-box .school-or-clg {
+        font-size: 13px;
+    }
+
+    .resume-wraper {
+        flex-wrap: wrap;
+    }
+
+    .resume-wraper .header .title {
+        font-size: 20px;
+    }
+
+    .skills-wraper {
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+}
+
